@@ -34,3 +34,25 @@ let order = {
 
 order.displayOrder();
 
+////////////////////////////////
+// Task 3: Array Manipulation //
+////////////////////////////////
+
+console.log("--------------------------------------");
+console.log("Task 3: Array Manipulation");
+
+let cartItems = ["Water", "Tea", "Coffee"];
+
+console.log(`Initial Items in Cart: ${cartItems}`);
+
+cartItems.push("Milk");
+console.log(`Added Milk: ${cartItems}`);
+
+cartItems.pop();
+console.log(`Got rid of milk: ${cartItems}`);
+
+cartItems.unshift("Juice", "Wine");
+console.log(`Added Juice & Wine: ${cartItems}`);
+
+cartItems.shift();
+console.log(`Final items in Cart: ${cartItems}`);
