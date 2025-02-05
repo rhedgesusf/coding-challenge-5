@@ -15,3 +15,22 @@ let customer = {
 for (let property in customer) {
     console.log(`${property}: ${customer[property]}`)
 }
+
+////////////////////////////
+// Task 2: Object Methods //
+////////////////////////////
+
+console.log("--------------------------------------");
+console.log("Task 2: Object Methods");
+
+let order = {
+    orderId: 1212,
+    totalAmount: 200,
+    status: "Processing",
+    displayOrder: function(){
+        console.log(`Order ID: ${this.orderId}, Total Amount: ${this.totalAmount}, Status: ${this.status}`);
+    }
+};
+
+order.displayOrder();
+
