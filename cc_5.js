@@ -56,3 +56,19 @@ console.log(`Added Juice & Wine: ${cartItems}`);
 
 cartItems.shift();
 console.log(`Final items in Cart: ${cartItems}`);
+
+////////////////////////
+// Task 4: Map Method //
+////////////////////////
+
+console.log("--------------------------------------");
+console.log("Task 4: Map Method");
+
+let prices = [100, 200, 300];
+console.log("Initial Prices:", prices);
+
+let discountPrices = prices.map(num => num * .90);
+console.log("Applied 10% Discount:", discountPrices);
+
+
+
