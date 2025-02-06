@@ -142,3 +142,19 @@ let discountedPrice = applyDiscount(896, 15);
 console.log(`Initial Price: $896`)
 console.log(`15% Discounted Price: $${discountedPrice}`);
 
+ ////////////////////////////
+// Task 10: Arrow Function //
+/////////////////////////////
+
+console.log("--------------------------------------");
+console.log("Task 9: Arrow Function");
+
+// Create function to calculate points based off of purchase amount
+// Points are rounded down to nearest whole number
+const calculatePoints = (totalPurchase) => Math.floor(totalPurchase * 0.1);
+
+let purchase = 125;
+
+// calculate points for purchase
+let points = calculatePoints(purchase);
+console.log(`Points Accumulated for purchase of $${purchase}: ${Math.floor(points)} pts`);
