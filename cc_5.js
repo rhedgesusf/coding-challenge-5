@@ -96,4 +96,18 @@ console.log("Initial Sales:", sales);
 let salesRevenue = sales.reduce((sum, sale) => sum + sale, 0);
 console.log("Total Sales:", salesRevenue);
 
+///////////////////////////
+// Task 7: find() Method //
+///////////////////////////
 
+console.log("--------------------------------------");
+console.log("Task 7: find() Method");
+
+let customers = ["Jon", "Jill", "Jack", "Mike"];
+console.log("Initial Customers:", customers);
+
+let searchName = "Jack";
+
+let found = customers.find((element) => element == searchName);
+
+console.log("Found Customer:", found);
