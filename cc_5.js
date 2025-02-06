@@ -111,3 +111,21 @@ let searchName = "Jack";
 let found = customers.find((element) => element == searchName);
 
 console.log("Found Customer:", found);
+
+/////////////////////////////
+// Task 8: Tax Calculation //
+/////////////////////////////
+
+console.log("--------------------------------------");
+console.log("Task 8: Tax Calculation");
+
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+ let number = 100;
+ let taxRate = .07;
+
+ console.log(`For purchase of $${number} at 7% tax rate`);
+ console.log(`Tax Amount: $${calculateTax(number, taxRate).toFixed(2)}`);
+
+ 
