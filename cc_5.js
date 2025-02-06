@@ -83,5 +83,17 @@ console.log("Initial Inventory:", inventory);
 let inventoryLimit = inventory.filter(num => num > 0);
 console.log("Removed Orders w/ Zero Stock:", inventoryLimit);
 
+///////////////////////////
+// Task 6: Reduce Method //
+///////////////////////////
+
+console.log("--------------------------------------");
+console.log("Task 6: Reduce Method");
+
+let sales = [500, 300, 200, 400];
+console.log("Initial Sales:", sales);
+
+let salesRevenue = sales.reduce((sum, sale) => sum + sale, 0);
+console.log("Total Sales:", salesRevenue);
 
 
