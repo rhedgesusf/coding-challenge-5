@@ -70,5 +70,18 @@ console.log("Initial Prices:", prices);
 let discountPrices = prices.map(num => num * .90);
 console.log("Applied 10% Discount:", discountPrices);
 
+///////////////////////////
+// Task 5: Filter Method //
+///////////////////////////
+
+console.log("--------------------------------------");
+console.log("Task 5: Filter Method");
+
+let inventory = [12, 9 ,1, 0, 9, 21]
+console.log("Initial Inventory:", inventory);
+
+let inventoryLimit = inventory.filter(num => num > 0);
+console.log("Removed Orders w/ Zero Stock:", inventoryLimit);
+
 
 
