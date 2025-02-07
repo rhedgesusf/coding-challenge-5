@@ -6,9 +6,9 @@ console.log("--------------------------------------");
 console.log("Task 1: Object Properties");
 
 let customer = {
-    name: "Mike Miller",
-    age: 34,
-    email: "mikeM@gmail.com"
+    name: "John Doe",
+    age: 35,
+    email: "john.doe@email.com"
 };
 
 // Print each property value in object and it's value
@@ -24,8 +24,8 @@ console.log("--------------------------------------");
 console.log("Task 2: Object Methods");
 
 let order = {
-    orderId: 1212,
-    totalAmount: 200,
+    orderId: 12345,
+    totalAmount: 150,
     status: "Processing",
     displayOrder: function(){
         console.log(`Order ID: ${this.orderId}, Total Amount: ${this.totalAmount}, Status: ${this.status}`);
@@ -77,7 +77,7 @@ console.log("Applied 10% Discount:", discountPrices);
 console.log("--------------------------------------");
 console.log("Task 5: Filter Method");
 
-let inventory = [12, 9 ,1, 0, 9, 21]
+let inventory = [5, 0, 12, 8, 0];
 console.log("Initial Inventory:", inventory);
 
 let inventoryLimit = inventory.filter(num => num > 0);
@@ -103,10 +103,10 @@ console.log("Total Sales:", salesRevenue);
 console.log("--------------------------------------");
 console.log("Task 7: find() Method");
 
-let customers = ["Jon", "Jill", "Jack", "Mike"];
+let customers = ["Alice", "Bob", "Charlie", "David"];
 console.log("Initial Customers:", customers);
 
-let searchName = "Jack";
+let searchName = "Charlie";
 
 let found = customers.find((element) => element == searchName);
 
@@ -157,4 +157,4 @@ let purchase = 125;
 
 // calculate points for purchase
 let points = calculatePoints(purchase);
-console.log(`Points Accumulated for purchase of $${purchase}: ${Math.floor(points)} pts`);
+console.log(`Points Accumulated for purchase of $${purchase}: ${points} pts`);
